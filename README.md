@@ -20,12 +20,12 @@
 The baseboard is equipped with components that let you practice and apply your skills across all standard peripherals. The baseboard also features a SeeedStudio XIAO platform header, giving the flexibility to work with a wide range of controllers.
 
 <div align="center">
-  <img src="assets/uFerris_Components.png" width="300">
+  <img src="assets/uFerris_Components.png" width="500">
 </div>
 <br>
 
 <div align="center">
-  <img src="assets/baseboardblockdiag.png" width="300">
+  <img src="assets/baseboardblockdiag.png" width="500">
 </div>
 <br>
 
@@ -34,7 +34,7 @@ The baseboard is equipped with components that let you practice and apply your s
 The Power Expansion Board lets the uFerris baseboard run independently of USB power. It features a 2×AAA battery holder with a current measurement circuit, making it easy to measure current consumption for your projects. It also includes an SD card holder—perfect for learning SPI and storing or logging data directly from your applications.
 
 <div align="center">
-  <img src="assets/uFerris_pb.png" width="400">
+  <img src="assets/uferris_pb.png" width="500">
 </div>
 <br>
 
@@ -50,6 +50,13 @@ The Power Expansion Board lets the uFerris baseboard run independently of USB po
 ## 📄 Certifications
 
 See [`docs/`](docs/) for compliance details.
+
+## 📜 License
+
+All uFerris boards and their derivatives are licensed
+under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+All software and firmware examples are licensed under the MIT License.
 
 
 ## 🌐 Learn More

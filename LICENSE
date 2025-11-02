@@ -1,0 +1,86 @@
+uFerris Hardware and Software Open-Source License
+=================================================
+
+OVERVIEW
+--------
+This repository contains the uFerris family of open-source hardware designs
+and software tools developed to support learning and experimentation with
+embedded Rust. It includes multiple derivative boards and compatible firmware.
+
+Unless otherwise noted, all files in this repository are covered by the
+licenses described below.
+
+------------------------------------------------------------
+HARDWARE LICENSE — Creative Commons Attribution-ShareAlike 4.0 International
+------------------------------------------------------------
+The hardware design files (schematics, PCB layouts, BOMs, 3D models, and other
+related design assets) for all uFerris boards and their derivatives are licensed
+under the Creative Commons Attribution-ShareAlike 4.0 International License
+(CC BY-SA 4.0).
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose,
+  including commercial use.
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made.
+- **ShareAlike** — If you remix, transform, or build upon the material, you must
+  distribute your contributions under the same license as the original.
+
+Full license text: https://creativecommons.org/licenses/by-sa/4.0/
+
+This applies to all board revisions, derivative designs, and hardware variants
+contained in this repository (e.g., boards supporting different Seeed Studio
+Xiao modules or other MCU pinouts derived from the uFerris base design).
+
+------------------------------------------------------------
+SOFTWARE LICENSE — MIT License
+------------------------------------------------------------
+The firmware, software tools, and example code contained in this repository are
+licensed under the MIT License:
+
+MIT License
+
+Copyright (c) 2025 [Your Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+------------------------------------------------------------
+CONTRIBUTIONS AND DERIVATIVES
+------------------------------------------------------------
+Contributions to this repository (including new board designs, modifications,
+or software updates) are welcome. All contributions are understood to be
+licensed under the same terms as the corresponding section above (hardware or
+software).
+
+If you create a derivative uFerris-compatible board or firmware, please:
+- Retain the attribution to "uFerris" and link back to this repository.
+- Clearly indicate your modifications.
+- Use the same CC BY-SA 4.0 (for hardware) and MIT (for software) licenses
+  when redistributing.
+
+------------------------------------------------------------
+PROJECT INFORMATION
+------------------------------------------------------------
+This project aims to support open and accessible embedded Rust learning
+hardware. For details and updates, visit:
+
+https://github.com/[your-username]/uFerris
