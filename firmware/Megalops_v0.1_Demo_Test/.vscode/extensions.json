@@ -2,6 +2,7 @@
     "recommendations": [
         "rust-lang.rust-analyzer",
         "tamasfe.even-better-toml",
+        "Wokwi.wokwi-vscode",
         "fill-labs.dependi"
     ]
 }
