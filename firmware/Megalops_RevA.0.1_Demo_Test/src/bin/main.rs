@@ -196,8 +196,7 @@ async fn main(spawner: Spawner) {
         &[CONFIG_PORT0, PORT0_DIR, PORT1_DIR, PORT2_DIR],
     )
     .unwrap();
-    // Reset all output ports to low
-    i2c0.write(TCA6424_ADDR, &[OUT_PORT0, 0, 0, 0]).unwrap();
+    
 
     // Move I2C to shared state to share among tasks
     SHARED_I2C.lock(|i2c| i2c.borrow_mut().replace(i2c0));
