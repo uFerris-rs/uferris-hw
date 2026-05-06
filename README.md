@@ -12,7 +12,9 @@
 - Allow learners to build a complete embedded product replica.
 - Serve as a centralized reference for Rust embedded beginners.
 
+## 📦 Purchase
 
+For pre-built hardware, uFerris can be acquired from [The Embedded Rustacean Store](https://shop.theembeddedrustacean.com/).
 
 ## 🧱 Board Variants
 
