@@ -51,7 +51,23 @@ The Power Expansion Board lets the uFerris baseboard run independently of USB po
 
 ## 📄 Certifications
 
-See [`docs/`](docs/) for compliance details.
+uFerris is certified open source hardware by the Open Source Hardware Association.
+
+<div align="center">
+<a href="https://certification.oshwa.org/jo000001.html">
+  <img src="assets/certification-mark-JO000001-stacked.png" alt="OSHW Certified JO000001" width="200">
+</a>
+</div>
+
+
+- **OSHWA UID:** [JO000001](https://certification.oshwa.org/jo000001.html)
+- **Certification Date:** May 8, 2026
+- **Hardware License:** CC-BY-SA-4.0
+- **Software License:** MIT
+
+uFerris is the first OSHWA-certified project from Jordan.
+
+See [`docs/`](docs/) for more compliance details.
 
 ## 📜 License
 
