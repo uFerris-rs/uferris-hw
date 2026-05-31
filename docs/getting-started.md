@@ -15,7 +15,7 @@ To get started with uFerris you would need at minimum the baseboard and a XIAO b
 ### Megalops Baseboard
 
 <p align="center">
-  <img src="assets/uFerrisBaseBoard.png" alt="uFerris Baseboard" width="300" />
+  <img src="../assets/uFerrisBaseBoard.png" alt="uFerris Baseboard" width="300" />
 </p>
 
 The Megalops baseboard is designed around the Seeed Studio XIAO platform. It supports multiple XIAO controllers, letting you swap MCUs while keeping the same board and peripherals. The board enables you to exercise every standard peripheral: GPIO, timers/counters, ADC, PWM, UART, and I²C.
@@ -43,7 +43,7 @@ The uFerris is powered and controlled by the XIAO module. The XIAO module, in tu
 ### Megalops Power Extension Board (Optional)
 
 <p align="center">
-  <img src="assets/uFerrisPowerBoard.png" alt="uFerris Powerboard" width="300" />
+  <img src="../assets/uFerrisPowerBoard.png" alt="uFerris Powerboard" width="300" />
 </p>
 
 The power extension board is an optional add-on that enables standalone operation (Ex. running a program to collect data without a power cable).
@@ -60,7 +60,7 @@ Key components on the power board:
 The XIAO module is mounted on the baseboard XIAO header. The figure below shows the mounting orientation for the XIAO module. Note how the USB connector of the module needs to always face outward.
 
 <p align="center">
-  <img src="assets/xiao_mounting.png" alt="XIAO Mounting Orientation" width="300" />
+  <img src="../assets/xiao_mounting.png" alt="XIAO Mounting Orientation" width="300" />
 </p>
 
 ### Power Extension Board Mounting
@@ -69,7 +69,7 @@ To mount the powerboard, align both top and bottom headers of the baseboard and 
 > ⚠️ **WARNING:** Incorrect orientation of the power extension board will damage the baseboard and/or the XIAO. Always verify the orientation before powering the board.
 
 <p align="center">
-  <img src="assets/powerboard_mounting.png" alt="Power Board Mounting" width="600" />
+  <img src="../assets/powerboard_mounting.png" alt="Power Board Mounting" width="600" />
 </p>
 
 ## 📌 Baseboard Pinout Reference
@@ -78,7 +78,7 @@ Each component on the board has a unique reference ID and is wired either to the
 > 📝 **NOTE:** The RTC, I/O Expander, and QWIIC connector are all wired to the SDA/SCL lines since they are I2C operated.
 
 <p align="center">
-  <img src="assets/UFerrisComponents .png" alt="uFerris Board" width="350" />
+  <img src="../assets/UFerrisComponents .png" alt="uFerris Board" width="350" />
 </p>
 
 The table below provides a comprehensive mapping of the various components and their connections to the Xiao, I/O Expander, Bottom Header (H3), Top Header (H4), and ESP32-C3 pins. 
