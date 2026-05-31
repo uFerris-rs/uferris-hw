@@ -48,6 +48,8 @@ The Power Expansion Board lets the uFerris baseboard run independently of USB po
 - [`firmware/`](firmware/) → Example Rust firmware projects
 - [`assets/`](assets/) → Images and media assets
 
+## 🏁 Getting Started
+To get started, refer to the [getting-started.md](https://github.com/uFerris-rs/uferris-hw/blob/main/docs/getting-started.md) document.
 
 ## 📄 Certifications
 
