@@ -38,7 +38,7 @@ The uFerris is powered and controlled by the XIAO module. The XIAO module, in tu
 2. Via the powerboard 2xAAA batteries.
 3. Via the SWD debug connection.
 
-> 📝 **NOTE:** The uFerris can still be powered by the USB-C connection while the powerboard is attached. Also, the USB-C connection can be kept while the batteries are inserted.
+> 📝 **NOTE:** The uFerris can still be powered by the USB-C connection while the powerboard is attached. However, flashing and serial communication might fail if the batteries are inserted.
 
 ### Megalops Power Extension Board (Optional)
 
