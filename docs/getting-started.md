@@ -38,7 +38,7 @@ The uFerris is powered and controlled by the XIAO module. The XIAO module, in tu
 2. Via the powerboard 2xAAA batteries.
 3. Via the SWD debug connection.
 
-> 📝 **NOTE:** The uFerris can still be powered by the USB-C connection while the powerboard is attached. Also the USB-C connection can be kept while the the batteries are inserted.
+> 📝 **NOTE:** The uFerris can still be powered by the USB-C connection while the powerboard is attached. Also, the USB-C connection can be kept while the batteries are inserted.
 
 ### Megalops Power Extension Board (Optional)
 
@@ -129,11 +129,13 @@ The table below provides a comprehensive mapping of the various components and t
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-2. **Add the RISC-V Target** (for ESP32-C3/C6)
+2. **Add the RISC-V Target** (for ESP32-C3)
 
 ```bash
 rustup target add riscv32imc-unknown-none-elf
 ```
+
+> 📝 **NOTE:** The target refers to the architecture being targeted by the cross-compiler for the device you want to generate code for. Each XIAO device would probably have a different one.
 
 3. **Install espflash**
 
@@ -155,6 +157,8 @@ cargo install esp-generate --locked
 esp-generate --chip esp32c3 -o unstable-hal -o vscode -o esp-backtrace -o log --headless blinky
 cd blinky
 ```
+
+> 📝 **NOTE:** While Espressif offers `esp-generate` to generate projects, this step might be different for non-ESP XIAO devices.
 
 2. **Write the Blink Code**
 
