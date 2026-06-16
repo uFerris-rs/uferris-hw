@@ -64,12 +64,18 @@ The XIAO module is mounted on the baseboard XIAO header. The figure below shows 
 </p>
 
 ### Power Extension Board Mounting
-To mount the powerboard, align both top and bottom headers of the baseboard and the power extension board, then press down until the baseboard is firmly seated. The XIAO header on the baseboard and the battery holder on the powerboard should face **downward** as shown in the figure below. 
+To mount the powerboard, align both top and bottom headers of the baseboard and the power extension board, then press down until the baseboard is firmly seated. The XIAO header on the baseboard and the battery holder on the powerboard should face **downward** as shown in the figure below.
+
+More recent editions of the boards also have mounting markers as shown in the figure below. These markers indicated the mounting direction and need to align with each other.
 
 > ⚠️ **WARNING:** Incorrect orientation of the power extension board will damage the baseboard and/or the XIAO. Always verify the orientation before powering the board.
 
 <p align="center">
   <img src="../assets/powerboard_mounting.png" alt="Power Board Mounting" width="600" />
+</p>
+
+<p align="center">
+  <img src="../assets/uFerrisMount.png" alt="Board Mounting" width="600" />
 </p>
 
 ## 📌 Baseboard Pinout Reference
