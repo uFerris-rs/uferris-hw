@@ -176,15 +176,17 @@ Replace the contents of `src/main.rs` with:
 
 use esp_backtrace as _;
 use esp_hal::delay::Delay;
-use esp_hal::gpio::{Level, Output};
+use esp_hal::gpio::{Level, Output, OutputConfig};
 use log::info;
+
+esp_bootloader_esp_idf::esp_app_desc!();
 
 #[esp_hal::main]
 fn main() -> ! {
     let config = esp_hal::Config::default();
     let peripherals = esp_hal::init(config);
 
-    let mut led = Output::new(peripherals.GPIO3, Level::Low);
+    let mut led = Output::new(peripherals.GPIO3, Level::Low, OutputConfig::default());
     let delay = Delay::new();
 
     info!("Blinking LED 1!");
