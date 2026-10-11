@@ -1,0 +1,44 @@
+[package]
+edition = "2024"
+name = "uferris-bsp-test"
+rust-version = "1.95"
+version = "0.1.0"
+
+[[bin]]
+name = "uferris-bsp-test"
+path = "./src/bin/main.rs"
+
+[dependencies]
+esp-hal = { version = "~1.2", features = ["esp32c3", "unstable"] }
+
+esp-bootloader-esp-idf = { version = "0.6.0", features = ["esp32c3"] }
+
+esp-alloc = { version = "0.11.0", features = ["esp32c3"] }
+esp-backtrace = { version = "0.20.0", features = [
+  "esp32c3",
+  "panic-handler",
+  "println",
+] }
+esp-println = { version = "0.18.0", features = ["esp32c3"] }
+
+critical-section = "1.2.0"
+static_cell = "2.1.1"
+
+uferris-bsp = { version = "0.3.0", features = [
+  "xiao-esp32c3",
+  "power-board",
+] }
+
+[profile.dev]
+# Rust debug is too slow.
+# For debug builds always builds with some optimization
+opt-level = "s"
+
+[profile.release]
+codegen-units = 1        # LLVM can perform better optimizations using a single thread
+debug = 2
+debug-assertions = false
+incremental = false
+lto = 'fat'
+opt-level = 's'
+overflow-checks = false
